@@ -60,7 +60,7 @@ Modulul functioneaza in acest fel:
     const insult = new Insulter(message, target, options);
 ```
 
- - message => trebuie sa fie cel declarat in eventul "message"l;
+ - message => trebuie sa fie cel declarat in eventul "message"l
  - target => persoana pe care vrei sa o injuri; (de verificat [discord.js docs](https://discord.js.org/#/docs/main/stable/class/MessageMentions?scrollTo=members) pentru mai multe informatii)
  - optiuni => Nu sunt obligatorii, dar daca vrei sa faci ceva mai custom, astea sunt posibilitatile:
     * type: "ALL", "MAMA", "BISERICA", "STATUT", "MORTI" => alege tipul de injuratura
