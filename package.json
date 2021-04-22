@@ -1,6 +1,6 @@
 {
   "name": "discord-insulter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Un npm module care ajuta la construirea unei comenzi insult, avand numeroase categorii",
   "main": "index.js",
   "scripts": {
