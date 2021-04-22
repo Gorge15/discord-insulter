@@ -3,7 +3,7 @@
 
 
 **Instalare**
- - downloadeaza codul sursa si pune-l in folderul botului (pana cand imi dau seama cum sa l fac sa mearga ca lumea ca npm package)
+ - `npm install discord-insulter` sau descarca rep-ul de pe github
  - trebuie sa aveti discord.js instalat
 
 
@@ -11,7 +11,7 @@
 
 ```js
     //declarare constructor
-    const Insulter = require("/path/to/folder/Discord-Insulter");
+    const Insulter = require("discord-insulter");
 
     const insult = new Insulter(message, target, options);
     
@@ -22,7 +22,7 @@
 
 ```js
     const Discord = require("discord.js");
-    const Insulter = require("/path/to/folder/Discord-Insulter");
+    const Insulter = require("discord-insulter");
     const client = new Discord.Client();
     const prefix = "?";
 
