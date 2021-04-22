@@ -10,7 +10,6 @@ class Insulter {
         this.target = target;
         if (!options) {
             this.options = tools.defaultOptions;
-            console.log(this.options)
         } else if (typeof options !== "object") throw new Error("Optiunile nu sunt un obiect");
          else {
             const defaultKeys = Object.keys(tools.defaultOptions);
@@ -23,7 +22,6 @@ class Insulter {
                 }
             }
         }
-        console.log(this.options)
 
         if (!tools.types.includes(this.options.type)) throw new Error("Acesta categorie nu exista, foloseste-le pe cele precizate in docs sau \"ALL\" pentru a le folosi pe toate");
         
