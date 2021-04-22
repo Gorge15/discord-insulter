@@ -1,6 +1,6 @@
 {
   "name": "discord-insulter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Un npm module care ajuta la construirea unei comenzi insult, avand numeroase categorii",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,17 @@
     "insult",
     "discord-insult"
   ],
-  "author": "",
+  "author": "georgicabot@gmail.com",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TotoShefulThau/discord-insulter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TotoShefulThau/discord-insulter/issues"
+  },
+  "homepage": "https://github.com/TotoShefulThau/discord-insulter#readme"
 }
